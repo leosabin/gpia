@@ -124,7 +124,8 @@
         android:layout_marginStart="122dp"
         android:layout_below="@+id/robotcomponents"
         android:layout_toRightOf="@+id/generalteamsupplies"
-        android:layout_toEndOf="@+id/generalteamsupplies" />
+        android:layout_toEndOf="@+id/generalteamsupplies"
+         />
 
     <EditText
         android:layout_width="300dp"
@@ -132,7 +133,9 @@
         android:id="@+id/nameandmodeledittext"
         android:layout_alignBottom="@+id/namemodel"
         android:layout_toRightOf="@+id/namemodel"
-        android:layout_toEndOf="@+id/namemodel" />
+        android:layout_toEndOf="@+id/namemodel"
+        android:inputType="text"
+        android:imeOptions="actionSend"/>
 
     <Button
         android:layout_width="50dp"
@@ -150,7 +153,6 @@
         android:id="@+id/quantityedittext"
         android:hint="Quantity"
         android:textColorHint="#000000"
-        android:layout_toRightof="@+id/minus"
         android:layout_alignBottom="@+id/minus"
         android:layout_alignRight="@+id/textViewTitle"
         android:layout_alignEnd="@+id/textViewTitle"
